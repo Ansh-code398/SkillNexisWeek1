@@ -1,0 +1,62 @@
+[
+  {
+    "id": "post-1",
+    "title": "Inside the Optimizely Supply-Chain Attack That Hit 178 Major Websites",
+    "slug": "optimizely-supply-chain-attack-178-websites",
+    "excerpt": "How attackers hijacked Project JavaScript snippets on Optimizely Web to deploy Magecart card skimmers, crypto address swappers, and iOS exploit kits across global brands.",
+    "content": "On November 16, 2026, a widespread supply-chain campaign compromised 188 Optimizely Web customer snippets across 178 organizations—including CNN, BBC, Salesforce, Zoom, and HSBC—serving malicious JavaScript directly from trusted CDN infrastructure.\n\n### Multi-Vector Payload Execution\nOnce injected into a page's `projectJS` bundle, the payload dynamically checked user devices and page contexts. On desktop browsers, it intercepted form submissions to skim payment card numbers and swapped cryptocurrency wallet addresses in the DOM and clipboard.\n\n### Targeted Mobile Exploit Chains\nFor visitors on Apple devices, the script routed traffic to secondary loaders hosting the Coruna and DarkSword exploit kits targeting unpatched iOS 13 through 18.6 builds, underscoring the critical risk of third-party experimentation scripts running without strict Subresource Integrity (SRI) or Content Security Policy (CSP) isolation.",
+    "category": "Cybersecurity",
+    "tags": ["SupplyChain", "Magecart", "AppSec", "Optimizely"],
+    "author": {
+      "name": "Ansh Sharma",
+      "role": "Developer",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces"
+    },
+    "publishedDate": "Nov 18, 2026",
+    "readTime": "6 min read",
+    "coverImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop&q=80",
+    "views": 4890,
+    "likes": 412,
+    "featured": true
+  },
+  {
+    "id": "post-2",
+    "title": "Lessons from the Week of Outages: Microsoft 365, Apple Services, and Aviation",
+    "slug": "november-2026-cloud-outages-microsoft-apple-faa",
+    "excerpt": "Analyzing the 24-hour Microsoft 365 disruption, Apple cloud hiccups, and FAA router failures that tested enterprise high-availability architectures.",
+    "content": "Between November 12 and 17, 2026, a cascade of unrelated infrastructure failures disrupted millions of users across enterprise productivity suites, consumer ecosystems, and air travel.\n\n### Single-Vendor Dependency in Enterprise Workflows\nThe 24-hour Microsoft 365 outage—which generated over 7.4 million Downdetector reports across Outlook, Teams, Exchange Online, and Copilot—halted corporate communications globally due to server-layer network misconfigurations rather than malicious activity.\n\n### Designing Graceful Degradation\nPaired with an FAA router malfunction that triggered a nationwide ground stop and an Apple Services outage affecting iCloud and Apple Pay, the week served as a stark reminder for engineering teams to implement multi-region failover, local caching, and out-of-band incident communication channels.",
+    "category": "DevOps & Cloud",
+    "tags": ["CloudOutage", "Resilience", "SRE", "Infrastructure"],
+    "author": {
+      "name": "Ansh Sharma",
+      "role": "Developer",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=faces"
+    },
+    "publishedDate": "Nov 19, 2026",
+    "readTime": "5 min read",
+    "coverImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
+    "views": 3610,
+    "likes": 298,
+    "featured": false
+  },
+  {
+    "id": "post-3",
+    "title": "Anthropic's Historic $1.3T IPO Debut and the Shift in Enterprise AI",
+    "slug": "anthropic-ipo-valuation-enterprise-ai-shift",
+    "excerpt": "What Anthropic's record-breaking public market debut and expanded workplace suite mean for developers, API pricing, and multi-model orchestration.",
+    "content": "Anthropic closed its first day of public trading this week at a staggering $1.3 trillion valuation, marking the largest technology IPO in history and signaling massive institutional appetite for frontier AI infrastructure.\n\n### Moving Beyond Chat Interfaces\nAlongside its market debut, Anthropic expanded Claude's enterprise footprint into collaborative whiteboarding, spreadsheets, and meeting workflows—directly challenging entrenched office suites.\n\n### Architectural Takeaways for Engineering Teams\nWith Claude Sonnet 4.5 scheduled for API retirement on November 30 alongside OpenAI's own v1/prompts deprecation, engineering teams must abstract LLM providers behind unified routing gateways to avoid vendor lock-in and sudden model lifecycle disruptions.",
+    "category": "AI & ML",
+    "tags": ["Anthropic", "Claude", "AIIndustry", "Architecture"],
+    "author": {
+      "name": "Akshara Bhardwaj",
+      "role": "ML Engineer",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces"
+    },
+    "publishedDate": "Nov 20, 2026",
+    "readTime": "7 min read",
+    "coverImage": "https://images.moneycontrol.com/static-mcnews/2026/11/20261119093649_Anthropic-IPO.jpeg?impolicy=website&width=770&height=431",
+    "views": 5240,
+    "likes": 465,
+    "featured": false
+  }
+]

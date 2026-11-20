@@ -1,0 +1,127 @@
+.blog-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  inline-size: min(100% - 2.5rem, 1240px);
+  margin-inline: auto;
+}
+
+.blog-main-content {
+  flex-grow: 1;
+  padding-block: 2.5rem 5rem;
+}
+
+.feed-header {
+  margin-block-end: 1.5rem;
+}
+
+.feed-title {
+  font-size: clamp(1.6rem, 2.8vw, 2.25rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--text-main);
+  margin-block-end: 0.35rem;
+}
+
+.feed-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+/* Posts Grid */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+}
+
+/* Empty State */
+.empty-state-card {
+  text-align: center;
+  padding: 4.5rem 1.5rem;
+  background-color: var(--bg-surface);
+  border: 1px dashed var(--border-subtle);
+  border-radius: var(--radius-xl);
+  max-inline-size: 36rem;
+  margin-inline: auto;
+  margin-block: 2rem;
+}
+
+.empty-state-icon {
+  font-size: 3rem;
+  margin-block-end: 1rem;
+}
+
+.empty-state-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-block-end: 0.5rem;
+}
+
+.empty-state-text {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-block-end: 1.5rem;
+}
+
+.empty-reset-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1.35rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--accent-blue);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-md);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.empty-reset-btn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+.blog-footer {
+  background-color: #05070e;
+  border-block-start: 1px solid var(--border-subtle);
+  padding-block: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-left,
+.footer-right {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.footer-right a {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+}

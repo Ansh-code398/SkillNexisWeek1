@@ -1,0 +1,103 @@
+.blog-navbar {
+  position: sticky;
+  inset-block-start: 0;
+  inline-size: 100%;
+  block-size: 4.25rem;
+  background-color: rgba(8, 11, 17, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-block-end: 1px solid var(--border-subtle);
+  z-index: 90;
+}
+
+.navbar-container {
+  max-inline-size: 1240px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  block-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+/* Brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.brand-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 2.25rem;
+  block-size: 2.25rem;
+  border-radius: var(--radius-md);
+  background-color: var(--accent-blue);
+  color: #ffffff;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.navbar-brand .accent {
+  color: var(--accent-cyan);
+}
+
+/* Search */
+.navbar-search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1 1 380px;
+  max-inline-size: 460px;
+}
+
+.search-icon {
+  position: absolute;
+  inset-inline-start: 0.85rem;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.navbar-search-input {
+  inline-size: 100%;
+  padding: 0.6rem 2.2rem 0.6rem 2.5rem;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  color: var(--text-main);
+  font-size: 0.9rem;
+  transition: border-color 0.15s ease;
+}
+
+.navbar-search-input:focus-visible {
+  outline: 2px solid var(--accent-cyan);
+  border-color: var(--accent-cyan);
+  background-color: #121a2c;
+}
+
+.navbar-search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-clear-btn {
+  position: absolute;
+  inset-inline-end: 0.75rem;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 50%;
+  transition: color 0.15s ease;
+}
+
+.search-clear-btn:hover {
+  color: var(--text-main);
+}

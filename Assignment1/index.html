@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ansh Sharma - Full Stack Web Developer Portfolio. Specializing in high-performance web applications, real-time distributed systems, and modern TypeScript architecture.">
+  <title>Ansh Sharma | Full Stack Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Ansh Sharma Portfolio Home">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-text">ansh<span class="accent">.dev</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-sm btn-primary">Hire Me</a>
+        <button type="button" class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero / Intro Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <h1 class="hero-title">
+          Engineering scalable, <br>
+          <span class="text-accent">production-grade</span> web experiences.
+        </h1>
+        <p class="hero-subtitle">
+          Hi, I'm <strong class="text-white">Ansh Sharma</strong> — a Full Stack Web Developer from Delhi, India. 
+          I specialize in building resilient real-time distributed architectures, cross-platform clients, and high-performance TypeScript applications.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span>Get in Touch</span>
+            <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-number">70+</span>
+            <span class="stat-label">Repositories Built</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">40+</span>
+            <span class="stat-label">Live Deployments</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">SIH</span>
+            <span class="stat-label">Hackathon Participant</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Type-Safe Architecture</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">From Idea to Implementation</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio-card">
+            <h3 class="bio-title">Background & Philosophy</h3>
+            <p class="bio-text">
+              I am an engineer focused on creating web applications with zero compromise on user experience, latency, and code maintainability. Over the past several years, I have engineered full-stack applications with <strong>Next.js 16</strong>, <strong>React 19</strong>, <strong>Elysia.js/Bun</strong>, and <strong>PostgreSQL</strong>.
+            </p>
+            <p class="bio-text">
+              My experience spans real-time distributed platforms, WebRTC communication bridges, on-device AI/RAG systems, and native cross-platform binaries using <strong>Tauri v2</strong> and <strong>Capacitor 8</strong>.
+            </p>
+
+            <div class="bio-contact-pills">
+              <span class="pill-item"><span class="pill-dot"></span> Delhi, India</span>
+              <a href="mailto:anshsharma.code@gmail.com" class="pill-item link-pill">anshsharma.code@gmail.com</a>
+              <a href="https://anshsharma.vercel.app" target="_blank" rel="noopener noreferrer" class="pill-item link-pill">anshsharma.vercel.app</a>
+              <a href="https://github.com/ansh-code398" target="_blank" rel="noopener noreferrer" class="pill-item link-pill">github.com/ansh-code398</a>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <h3 class="bio-title">Technical Expertise</h3>
+            <div class="skills-category">
+              <h4 class="category-heading">Languages</h4>
+              <div class="tag-cloud">
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">JavaScript (ES6+)</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">C/C++</span>
+                <span class="tech-tag">Rust</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">HTML5 / CSS3</span>
+              </div>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="category-heading">Frontend & Frameworks</h4>
+              <div class="tag-cloud">
+                <span class="tech-tag">React 19</span>
+                <span class="tech-tag">Next.js 16</span>
+                <span class="tech-tag">Tailwind CSS v4</span>
+                <span class="tech-tag">Shadcn UI</span>
+                <span class="tech-tag">Framer Motion</span>
+              </div>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="category-heading">Backend, DB & Cloud</h4>
+              <div class="tag-cloud">
+                <span class="tech-tag">Node.js / Bun</span>
+                <span class="tech-tag">Elysia.js</span>
+                <span class="tech-tag">tRPC v11</span>
+                <span class="tech-tag">PostgreSQL (Neon, Supabase)</span>
+                <span class="tech-tag">Drizzle ORM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Education & Foundation</h2>
+        </div>
+
+        <div class="timeline-container">
+          <article class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-main">
+                <span class="degree-badge">B.Tech</span>
+                <h3 class="timeline-institution">Maharaja Agrasen Institute of Technology (MAIT)</h3>
+                <h4 class="timeline-degree">Bachelor of Technology in Computer Science & Engineering</h4>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-period">2025 – 2029</span>
+                <span class="timeline-location">Delhi, India</span>
+              </div>
+            </div>
+            
+          
+          </article>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+          
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Circles -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-status">Featured Collaboration</span>
+              <h3 class="project-title">Circles</h3>
+              <p class="project-subtitle">Multiplatform Real-Time Collaboration & Privacy-First Communication Suite</p>
+            </div>
+            <p class="project-desc">
+              Cross-platform audio/video calling integration pairing LiveKit with an iOS CallKit bridge and Android foreground notifications with PiP. Engineered biometric authentication and client-side message decryption.
+            </p>
+            <div class="project-tech-stack">
+              <span>Next.js 16</span>
+              <span>React 19</span>
+              <span>LiveKit</span>
+              <span>Tauri v2</span>
+              <span>Capacitor 8</span>
+              <span>Drizzle</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/ansh-code398" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Source</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: LabelJaano -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-status">AI & Computer Vision</span>
+              <h3 class="project-title">LabelJaano</h3>
+              <p class="project-subtitle">On-Device Legal Metrology & Regulatory Compliance Mobile App</p>
+            </div>
+            <p class="project-desc">
+              Integrated MediaPipe GenAI on-device Gemma 2B inference with Mobile-RAG to analyze statutory packaging laws offline. Built edge vision pipeline with OpenCV.js and Google ML Kit for label corner detection.
+            </p>
+            <div class="project-tech-stack">
+              <span>MediaPipe GenAI</span>
+              <span>OpenCV.js</span>
+              <span>ML Kit</span>
+              <span>Elysia.js</span>
+              <span>Next.js 16</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/ansh-code398" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Source</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: IPU Ki Paathshala -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-status">Production Platform</span>
+              <h3 class="project-title">IPU Ki Paathshala</h3>
+              <p class="project-subtitle">Full-Stack Academic & Engineering Simulation Resource Platform</p>
+            </div>
+            <p class="project-desc">
+              Centralized academic platform featuring in-browser logic circuit simulator with directional wire routing, molecular visualization via OpenChemLib, live Markdown/Mermaid engine, and Upstash rate limiting.
+            </p>
+            <div class="project-tech-stack">
+              <span>Next.js 16</span>
+              <span>tRPC v11</span>
+              <span>Drizzle ORM</span>
+              <span>PostgreSQL</span>
+              <span>Upstash Redis</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://ipukipaathshala.in" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>Live Platform</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Shhh-Chat -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-status">Real-Time Messaging</span>
+              <h3 class="project-title">Shhh-Chat</h3>
+              <p class="project-subtitle">End-to-End Encrypted Messaging & Media Hub</p>
+            </div>
+            <p class="project-desc">
+              Low-latency messaging architecture leveraging Redis Pub/Sub and Pusher for sub-100ms ephemeral rooms. Offline-first dual-tier storage syncing embedded SQLite with Neon Postgres.
+            </p>
+            <div class="project-tech-stack">
+              <span>Bun</span>
+              <span>Elysia.js</span>
+              <span>Tauri v2</span>
+              <span>LiveKit</span>
+              <span>SQLite</span>
+              <span>Neon Postgres</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/ansh-code398" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Source</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: Loltube -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-status">Streaming Platform</span>
+              <h3 class="project-title">Loltube</h3>
+              <p class="project-subtitle">Full-Stack Video Streaming & Creator Platform</p>
+            </div>
+            <p class="project-desc">
+              Automated video transcoding pipeline with Mux Video API and Media Chrome for adaptive HLS playback. Resilient background job queue via Upstash Workflows to handle async video ingest webhooks.
+            </p>
+            <div class="project-tech-stack">
+              <span>Next.js 16</span>
+              <span>Mux Video API</span>
+              <span>Upstash Workflows</span>
+              <span>Clerk</span>
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/ansh-code398" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Source</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 6: BharatSaarthi -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-status">Smart India Hackathon</span>
+              <h3 class="project-title">BharatSaarthi</h3>
+              <p class="project-subtitle">Context-Aware Smart Travel & Civic Safety Platform</p>
+            </div>
+            <p class="project-desc">
+              Real-time emergency SOS system with one-tap broadcast alerts and nearby emergency unit discovery. Features Gemini AI travel advisories and hardware-accelerated 3D globe visualizations using OGL.
+            </p>
+            <div class="project-tech-stack">
+              <span>Next.js 15</span>
+              <span>Gemini API</span>
+              <span>OGL (WebGL)</span>
+              <span>GSAP</span>
+              <span>Google Maps</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/ansh-code398" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Source</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-description">
+            Have a project in mind, an internship opportunity, or want to discuss modern web architecture? Send me a message.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info-card">
+            <h3 class="contact-heading">Contact Details</h3>
+
+            <ul class="contact-methods-list">
+              <li class="contact-method-item">
+                <div class="method-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <span class="method-label">Email</span>
+                  <a href="mailto:anshsharma.code@gmail.com" class="method-value">anshsharma.code@gmail.com</a>
+                </div>
+              </li>
+
+              <li class="contact-method-item">
+                <div class="method-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                </div>
+                <div>
+                  <span class="method-label">GitHub</span>
+                  <a href="https://github.com/ansh-code398" target="_blank" rel="noopener noreferrer" class="method-value">github.com/ansh-code398</a>
+                </div>
+              </li>
+
+              <li class="contact-method-item">
+                <div class="method-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                </div>
+                <div>
+                  <span class="method-label">Live Portfolio</span>
+                  <a href="https://anshsharma.vercel.app" target="_blank" rel="noopener noreferrer" class="method-value">anshsharma.vercel.app</a>
+                </div>
+              </li>
+
+              <li class="contact-method-item">
+                <div class="method-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <span class="method-label">Location</span>
+                  <span class="method-value static-text">Delhi, India (Open to Remote)</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-wrapper">
+            <form id="portfolio-contact-form" class="portfolio-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">
+                  Full Name <span class="required-indicator" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="contact-name" 
+                  name="name" 
+                  class="form-control" 
+                  placeholder="Alex Mercer" 
+                  required 
+                  minlength="2"
+                  autocomplete="name"
+                  aria-describedby="name-hint"
+                >
+                <span id="name-hint" class="field-hint">Please enter your name (minimum 2 characters).</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">
+                  Email Address <span class="required-indicator" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="contact-email" 
+                  name="email" 
+                  class="form-control" 
+                  placeholder="alex@example.com" 
+                  required 
+                  autocomplete="email"
+                  autocorrect="off"
+                  autocapitalize="none"
+                  spellcheck="false"
+                  aria-describedby="email-hint"
+                >
+                <span id="email-hint" class="field-hint">We will use this to get back to you.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">
+                  Subject <span class="required-indicator" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="contact-subject" 
+                  name="subject" 
+                  class="form-control" 
+                  placeholder="Internship Opportunity / Collaboration" 
+                  required 
+                  minlength="3"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">
+                  Message <span class="required-indicator" aria-hidden="true">*</span>
+                </label>
+                <textarea 
+                  id="contact-message" 
+                  name="message" 
+                  rows="4" 
+                  class="form-control form-textarea" 
+                  placeholder="Tell me about your project, team, or opportunity..." 
+                  required
+                  minlength="10"
+                  aria-describedby="message-hint"
+                ></textarea>
+                <span id="message-hint" class="field-hint">Minimum 10 characters.</span>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                  <span>Send Message</span>
+                  <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+              </div>
+
+              <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo">
+          <span class="logo-symbol">&lt;/&gt;</span>
+          <span class="logo-text">ansh<span class="accent">.dev</span></span>
+        </a>
+        <p class="footer-tagline">Crafting resilient, scalable web architectures with modern TypeScript and React.</p>
+      </div>
+
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Connect</h4>
+          <ul class="footer-list">
+            <li><a href="https://github.com/ansh-code398" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://anshsharma.vercel.app" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+            <li><a href="mailto:anshsharma.code@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="copyright-text">&copy; <span id="current-year">2026</span> Ansh Sharma. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
